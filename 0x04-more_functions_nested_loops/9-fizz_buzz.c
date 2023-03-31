@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 /**
 * main - print 1 to 100, except certain multiples
@@ -29,5 +30,6 @@ int main(void)
 			printf(" %d", i);
 		}
 	}
+	printf("\n");
 	return (0);
 }
